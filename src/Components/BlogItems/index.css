@@ -1,0 +1,44 @@
+.list_items{
+    background-color: #f8f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.image{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 18px;
+    color: #e73959;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.items_set{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+}
+
+.star_image{
+    width: 22px;
+}
+
+.para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
